@@ -2,6 +2,10 @@ api_platform:
     title: VML API
     version: 1.0.0
     defaults:
+        formats:
+            jsonld: [ "application/ld+json" ]
+            jsonapi: [ "application/vnd.api+json" ]
+            json: [ "application/json" ]
         stateless: true
         cache_headers:
             vary: ['Content-Type', 'Authorization', 'Origin']
