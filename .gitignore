@@ -13,3 +13,4 @@
 /.phpunit.cache/
 ###< phpunit/phpunit ###
 .idea
+/node_modules
